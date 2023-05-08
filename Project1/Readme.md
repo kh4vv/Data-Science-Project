@@ -12,19 +12,15 @@ I will try my best to visualize the data as clear as possible.
 
 #### Region and Domain 
 
-Region: Nationwide (United States)
-
+Region: Nationwide (United States)   
 Domain: College students 
 
 #### Data Source
 
-Data from APS
-https://www.aps.org/programs/education/statistics/bachelors.cfm
-
-https://www.aps.org/programs/education/statistics/womenphysics.cfm
-
-https://www.aps.org/programs/education/statistics/womenmajors.cfm
-
-https://www.aps.org/programs/education/statistics/fraction-phd.cfm
+Data from APS   
+https://www.aps.org/programs/education/statistics/bachelors.cfm   
+https://www.aps.org/programs/education/statistics/womenphysics.cfm   
+https://www.aps.org/programs/education/statistics/womenmajors.cfm   
+https://www.aps.org/programs/education/statistics/fraction-phd.cfm   
 
 #### Discussion
