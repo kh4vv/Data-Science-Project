@@ -1,4 +1,4 @@
-# Do College Students Actually Study Physics in These Days?
+# Do College Students Actually Study Physics These Days?
 
 ### Statistic of BS and Ph.D. in Physics from 1966 to 2020
 
@@ -39,4 +39,11 @@ However this graph does not show the *true trends* because there are different n
 The result is actually shocked. The percentage of students in Engineering major actually drops from 6.84% in 1966 to 6.01% in 2020. However, looking at the trend, both percentages of students in Engineering and Computer Science keep increasing since 2010 without losing any momentums. I can predict that the percentage of students in Engineering will catch up 6.84% and it will go beyond in near future. However, looking at the Physics trend, I cannot find any hope. In 2022, students in Physics major are not even 0.5 % of total students and I do not find any statsical reasons that the percentage of students in Physics major will not pass 0.5% in future. 
 
 Now let's look at numbers of female students in three majors. What do you expect to see on the graph? Here is the graph below.
+
+<p align="center">
+  <img src="https://github.com/kh4vv/Data-Science-Project/blob/origin/Project1/RatioF3Majors.png" width="600" height="400"/>
+</p>
+
+What a surprise! I did not expect these trends at all. Female ratio is the highest in Physics major among three majors. This is a bright news for Physics world. The graph shows that more and more female students are majoring in science and engineering (include Computer Science) and I predict the female ratios will keep increasing in future.
+
 
