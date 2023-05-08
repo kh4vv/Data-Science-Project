@@ -1,4 +1,4 @@
-# Does Anyone Actually Study Physics in Colleges These Days?
+# Do College Students Actually Study Physics in These Days?
 
 ### Statistic of BS and Ph.D. in Physics from 1966 to 2020
 
