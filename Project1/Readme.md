@@ -1,4 +1,6 @@
-# BS and Ph.D. in Physics by Gender
+# Does Anyone Actually Study Physics in Colleges These Days?
+
+### Statistic of BS and Ph.D. in Physics from 1966 to 2020
 
 #### Motivation
 This project is from my personal interest. I always wonder how many students in colleges earn a degree in physics. 
