@@ -1,25 +1,26 @@
 # Chicago House Price and Prediction
 
-### Statistic of BS and Ph.D. in Physics from 1966 to 2020
+### Given dataset which contains information about houses prices in the suburbs of chicago
 
-## Motivation
+## TASK
 
-This project is from my personal interest. I am curious to find out how many college students earn a degree in physics. These days, most students wants to be engineers rather than scientists in academia. 
-I am also curious on how many students with BS degree’s in physics continue their study to obtain a doctorate degree in physics. I will not only look at the number of physics students with a BS and Ph.D. degree, but also look into the statistics of female vs male students in physics to get more insights on the gender gap in the field. I will try my best to visualize the data as clear as possible.
-
-## Region and Domain 
-
-Region: Nationwide (United States)   
-Domain: College students 
+First analysis the data ,and then to apply a regression model to it.
 
 ## Data Source
 
-Data from APS   
-https://www.aps.org/programs/education/statistics/bachelors.cfm   
-https://www.aps.org/programs/education/statistics/womenphysics.cfm   
-https://www.aps.org/programs/education/statistics/womenmajors.cfm   
-https://www.aps.org/programs/education/statistics/fraction-phd.cfm   
+Data from [Kaggle](https://www.kaggle.com/datasets/tawfikelmetwally/chicago-house-price) 
 
-## Discussion
+## Data Overview
 
-First, I want to compare the numbers of students in three different majors -engineering, computer science, and physics- from 1966 to 2022. The plot is shown below.
+dataset consists of following variables:
+
+**Price :** price of house  
+**Bedroom:** number of bedrooms  
+**Room:** number of rooms  
+**Space :** size of house (in square feet)  
+**Lot :** width of a lot  
+**Tax :** amount of annual tax  
+**Bathroom :** number of bathrooms  
+**Garage :** number of garage  
+**Condition:** condition of house (1 if good , 0 otherwise)  
+
