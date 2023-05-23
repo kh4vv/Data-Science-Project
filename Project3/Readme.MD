@@ -29,5 +29,33 @@ Here's a brief version of what you'll find in the data description file.
 
 ## Approach 
 
+### EDA
+
+##### Missing Values in each feature:  
+
+##### Dependant Variable Characterisic
+
+##### Feature Engineering
+
+Here are questions to me for feature engineering: 
+
+1. Do we need all features (total 79)?  
+2. If not, what features do we want to use?  
+3. Any new feature from combining/finding relationship between exist features?  
+4. Do numerical features stay numerical? Or do categorical feature stay categorical?  
+5. Any nomarlization needs for any features?  
+6. What about missing values?  
+and more...  
+
+Visualization: 
+
+Sale Price vs Month
+
+Sale Price vs Properties Age
+
+Sale Price vs Properties Remodeling Age
+
+Heatmap
+
 
 
