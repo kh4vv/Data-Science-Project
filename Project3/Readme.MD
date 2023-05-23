@@ -21,4 +21,13 @@ Photo by Tom Thain on Unsplash.
 
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
 
+## Data Overview
+
+Here's a brief version of what you'll find in the data description file.
+
+[DATA OVERVIEW](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
+
+## Approach 
+
+
 
