@@ -41,7 +41,7 @@ Here are questions to me for EDA:
 6. What about missing values?  
 and more...  
 
-##### Dataset Basics
+### Dataset Basics
 
 **Train data shape:**  (1460, 81)  
 **Test  data shape:**  (1459, 80)  
@@ -49,7 +49,7 @@ and more...
 **Numerical columns :** 36 + ID/SalePrice = total 38 
 **Categorical columns:** 43
 
-##### Categorical Feature Exploration
+#### Categorical Feature Exploration
 
 **Box Plot** : Check for outliers and figure out unrelavent features
 
