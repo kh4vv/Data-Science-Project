@@ -31,21 +31,46 @@ Here's a brief version of what you'll find in the data description file.
 
 ### EDA
 
-##### Missing Values in each feature:  
+Here are questions to me for EDA: 
 
-##### Dependant Variable Characterisic
-
-##### Feature Engineering
-
-Here are questions to me for feature engineering: 
-
-1. Do we need all features (total 79)?  
+1. Do we need all features?  
 2. If not, what features do we want to use?  
 3. Any new feature from combining/finding relationship between exist features?  
 4. Do numerical features stay numerical? Or do categorical feature stay categorical?  
 5. Any nomarlization needs for any features?  
 6. What about missing values?  
 and more...  
+
+##### Dataset Basics
+
+**Train data shape:**  (1460, 81)  
+**Test  data shape:**  (1459, 80)  
+
+**Numerical columns :** 36 + ID/SalePrice = total 38 
+**Categorical columns:** 43
+
+##### Categorical Feature Exploration
+
+**Box Plot** : Check for outliers and figure out unrelavent features
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/ba76bdfc-88e1-4bf4-843c-74e9c970364b) 
+
+From these box plots, there are three categorical columns that contains two options: Street, Utilities, CentralAir. Look at those data. 
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/3de08344-9465-4134-86d9-6847dd7de697) 
+
+Remove Street and Utilities because of no relevant to prediction. Found more columns that unrelvant to prediction.  
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/acec3d94-e4c0-49ba-ba93-6f9747b6babe)
+
+Deleted these three categorical features. 
+
+
+##### Missing Values in each feature:  
+
+##### Dependant Variable Characterisic
+
+##### Feature Engineering
+
+
 
 Visualization: 
 
