@@ -49,7 +49,7 @@ and more...
 **Numerical columns :** 36 + ID/SalePrice = total 38 
 **Categorical columns:** 43
 
-#### Categorical Feature Exploration
+### Categorical Feature Exploration
 
 **Box Plot** : Check for outliers and figure out unrelavent features
 
@@ -61,11 +61,16 @@ From these box plots, there are three categorical columns that contains two opti
 Remove Street and Utilities because of no relevant to prediction. Found more columns that unrelvant to prediction.  
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/acec3d94-e4c0-49ba-ba93-6f9747b6babe)
 
-Deleted these three categorical features. 
+Deleted these three categorical features. Then handle the outliers in training set. 
 
+### Missing Values in each feature:  
 
-##### Missing Values in each feature:  
+Here is the list of all features that have missing values - 19 of them.  
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/d7dd1c30-bd06-4616-8796-a96a8728a3bc)
 
+19 columns with missing values. Majority missing values are in 'MiscFeature', 'Alley', 'Fence', 'FirePlaceQu'.  
+'MiscFeature', 'Alley', 'Fence' > 80% missing values. I drop these features.  
+ 
 ##### Dependant Variable Characterisic
 
 ##### Feature Engineering
