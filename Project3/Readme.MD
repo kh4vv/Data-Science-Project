@@ -73,6 +73,14 @@ Here is the list of all features that have missing values - 19 of them.
  
 ##### Dependant Variable Characterisic
 
+Look at any skewness of dependant variable.  
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/f26e31b1-23b5-4b37-b989-343655305297)  
+
+The dependant variable is NOT normal distribution. It means that we need transform the data. 
+It seems like Johnson Distribution is good fit for the depandant variable. 
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/d2a66453-3b1c-4135-b840-be5485cbeafd)
+
+
 ##### Feature Engineering
 
 
