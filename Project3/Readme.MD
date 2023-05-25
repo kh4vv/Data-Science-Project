@@ -71,18 +71,26 @@ Here is the list of all features that have missing values - 19 of them.
 19 columns with missing values. Majority missing values are in 'MiscFeature', 'Alley', 'Fence', 'FirePlaceQu'.  
 'MiscFeature', 'Alley', 'Fence' > 80% missing values. I drop these features.  
  
-##### Dependant Variable Characterisic
+### Dependant Variable Characterisic
 
 Look at any skewness of dependant variable.  
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/f26e31b1-23b5-4b37-b989-343655305297)  
 
 The dependant variable is NOT normal distribution. It means that we need transform the data. 
 It seems like Johnson Distribution is good fit for the depandant variable. 
+
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/d2a66453-3b1c-4135-b840-be5485cbeafd)
 
+### Numerical Feature Exploration
 
-##### Feature Engineering
+In order to look closer to numerical features, I use heatmap. 
 
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/ee333cbc-c027-4efa-b510-88197c73ac6c)
+
+In order to reduce the sizes of heatmap, I try to plot the features that are highly correlated to the depeandant variable.
+I set the threshold 0.7 and above.
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/c5405601-711b-4747-bfeb-b3c7b2c7c1a6)
 
 
 Visualization: 
