@@ -96,12 +96,12 @@ I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','Ga
 
 ### Create new features by combining existed features
 
-# Agg columns to make new one
 ```
  #Total area of property
  df_feature['Total_SQ']   = df_train['1stFlrSF']+df_train['2ndFlrSF']+df_train['TotalBsmtSF']
  df_feature['Total_bath'] = df_train['FullBath']+df_train['HalfBath']*0.5 + df_train['BsmtFullBath'] + df_train['BsmtHalfBath']*0.5
  df_feature['Total_porch']= df_train['OpenPorchSF'] +df_train['EnclosedPorch'] + df_train['ScreenPorch'] + df_train['WoodDeckSF'] +df_train['3SsnPorch']
+ 
  #Amenity of property
  df_feature['Has_pool']     = df_train['PoolArea'].apply(lambda x: 1 if x > 0 else 0)
  df_feature['Has_2ndFloor'] = df_train['2ndFlrSF'].apply(lambda x: 1 if x > 0 else 0)
@@ -109,7 +109,9 @@ I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','Ga
  df_feature['Has_base']     = df_train['TotalBsmtSF'].apply(lambda x: 1 if x >0 else 0)
  df_feature['Has_fire']     = df_train['Fireplaces'].apply(lambda x: 1 if x>0 else 0)
 ```
+### Scaleing on Numerical Features
 
+The numerical features are not normal distribution so the scaleing and transform is requried. 
 
 Visualization: 
 
