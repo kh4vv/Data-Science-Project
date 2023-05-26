@@ -97,7 +97,7 @@ I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','Ga
 ### Create new features by combining existed features
 
 # Agg columns to make new one
-
+```
  #Total area of property
  df_feature['Total_SQ']   = df_train['1stFlrSF']+df_train['2ndFlrSF']+df_train['TotalBsmtSF']
  df_feature['Total_bath'] = df_train['FullBath']+df_train['HalfBath']*0.5 + df_train['BsmtFullBath'] + df_train['BsmtHalfBath']*0.5
@@ -108,7 +108,7 @@ I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','Ga
  df_feature['Has_garage']   = df_train['GarageArea'].apply(lambda x: 1 if x > 0 else 0)
  df_feature['Has_base']     = df_train['TotalBsmtSF'].apply(lambda x: 1 if x >0 else 0)
  df_feature['Has_fire']     = df_train['Fireplaces'].apply(lambda x: 1 if x>0 else 0)
-
+```
 
 
 Visualization: 
