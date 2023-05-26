@@ -92,6 +92,24 @@ I set the threshold 0.7 and above.
 
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/c5405601-711b-4747-bfeb-b3c7b2c7c1a6)
 
+I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','GarageCars'
+
+### Create new features by combining existed features
+
+# Agg columns to make new one
+
+ #Total area of property
+ df_feature['Total_SQ']   = df_train['1stFlrSF']+df_train['2ndFlrSF']+df_train['TotalBsmtSF']
+ df_feature['Total_bath'] = df_train['FullBath']+df_train['HalfBath']*0.5 + df_train['BsmtFullBath'] + df_train['BsmtHalfBath']*0.5
+ df_feature['Total_porch']= df_train['OpenPorchSF'] +df_train['EnclosedPorch'] + df_train['ScreenPorch'] + df_train['WoodDeckSF'] +df_train['3SsnPorch']
+ #Amenity of property
+ df_feature['Has_pool']     = df_train['PoolArea'].apply(lambda x: 1 if x > 0 else 0)
+ df_feature['Has_2ndFloor'] = df_train['2ndFlrSF'].apply(lambda x: 1 if x > 0 else 0)
+ df_feature['Has_garage']   = df_train['GarageArea'].apply(lambda x: 1 if x > 0 else 0)
+ df_feature['Has_base']     = df_train['TotalBsmtSF'].apply(lambda x: 1 if x >0 else 0)
+ df_feature['Has_fire']     = df_train['Fireplaces'].apply(lambda x: 1 if x>0 else 0)
+
+
 
 Visualization: 
 
