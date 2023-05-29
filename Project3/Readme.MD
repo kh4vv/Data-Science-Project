@@ -126,17 +126,32 @@ If missing values are more than 100, I fill "None" or 0 for missing values depen
 Before I use `pd.get_dummies` to encode the categorical features, I added two datasets in order to two datasets transform together.  
 Then I seperate Train and Test dataset again.
 
+### Modeling
 
+List of models that I used for this competition:  
 
-Visualization: 
+1. RandomForest
+2. XGBoost
+3. Ridge
+4. Lasso
+5. GB Reg
+6. LGBM Reg
+7. SVR
+8. Elasticnet
 
-Sale Price vs Month
+Eacho of model hyperparameters are tunned with `GridCV` or `Optuna` and `Cross_Val`.  
+More detail can be found in my Notebook.
 
-Sale Price vs Properties Age
+### Result
 
-Sale Price vs Properties Remodeling Age
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/8de80172-b724-44a3-b4b9-80f7c026fe21)
 
-Heatmap
+### Blending
 
+I picked three best models and blended with same weight. 
+
+### Score
+
+My score is 0.127. 
 
 
