@@ -112,6 +112,21 @@ I dropped few features from heatmap information:  'TotalBsmtSF', 'GrLivArea','Ga
 ### Scaleing on Numerical Features
 
 The numerical features are not normal distribution so the scaleing and transform is requried. 
+I tried two scaleing on this project: StandardScale and Box1PScale.
+
+My experience is that StandardScale is good enough for this competition.
+
+### Filling Missing Values
+
+If missing values are less than 100 on each feature, I fill median of each feature to the missing values.  
+If missing values are more than 100, I fill "None" or 0 for missing values depending on Categorical or Numerical features
+
+### Combine two datasets
+
+Before I use `pd.get_dummies` to encode the categorical features, I added two datasets in order to two datasets transform together.  
+Then I seperate Train and Test dataset again.
+
+
 
 Visualization: 
 
