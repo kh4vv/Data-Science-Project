@@ -55,11 +55,9 @@ In this competition, you will predict sales for the thousands of product familie
 
 ### 1. Does the type of stores affect the store sales?
 
-Test with ANOVA (Analysis of Variance)
+Test with ANOVA (Analysis of Variance) with p = 0.05 
 
-- Null Hypothesis: H_0 = there is no effect between type of stores and the store sales  
-- Althenative Hypotheis: H_1 = there is effect  
+- Null Hypothesis: $H_0$ = there is no effect between type of stores and the store sales  
+- Althenative Hypotheis: $H_1$ = there is effect  
 
 
-
-# p = 0.05 
