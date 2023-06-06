@@ -81,3 +81,35 @@ Anova result: p = 0 which is less than 0.05. Reject $H_0$.
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/df37e18a-c69d-404b-9586-ab6d0fdc0447)
 
 #### 2. Which family is having the highest sales?
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/874e37cb-c64b-4618-b80c-4c195e4d63ab)
+
+#### 3. Is any relationship between promotion and sales?
+
+Pearson correlation test to determine the relationship between promotion and slaes with p = 0.05. 
+
+- Null hypothesis: $H_0$ = no relationship between promotion and sales
+- Althernative hypothesis: $H1$  = there are relationships between promotion and sales
+
+**Result**: Reject $H_0$
+Pearson correlation coefficient: 0.4279232048121204 
+p-value: 0.0 
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/bf78065d-140a-48d9-b087-68b791d5cd86)
+
+#### 4. Sales distribution by cities
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/2d1a4151-9724-4696-8570-a1c54ec45905)
+
+#### 5. Total sales by store
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/26f9e6b9-8bc0-481c-83fb-4589494cfc25)
+
+#### 6. Monthly Sales Trend
+
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/f22470ef-2db9-4ec4-b298-edd000d7ba6d)
+
+
+
+
+
