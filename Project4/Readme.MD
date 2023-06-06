@@ -109,9 +109,14 @@ p-value: 0.0
 
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/f22470ef-2db9-4ec4-b298-edd000d7ba6d)
 
-I also checked autocorrelation and partial autocorrelation.
+Then, I checked autocorrelation and partial autocorrelation.
 
 ![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/2a7c3633-e53d-4ef3-90b4-fe54aff080f1)
 
+Then, I added new features (columns) for lags features, rolling mean features, and exponential moving average.
+
+## Model
+
+I used XGBoost to train the dataset. 
 
 
