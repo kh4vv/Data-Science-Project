@@ -53,11 +53,31 @@ In this competition, you will predict sales for the thousands of product familie
 
 ## EDA 
 
-### 1. Does the type of stores affect the store sales?
+Explore each files. Before I merge all files to one dataframe, I modified few things.
+
+- I can find out the time the store was closed from `transaction` files. I found the timeline and deleted the times when the stores were closed.
+- For date, I seperated Month, Day, and Year and saved as numerical variables.
+
+Then I merged all files to one dataframe.
+
+After merging to one dataframe, I check few things.
+
+- Any missing values?
+- Any duplicate values?
+
+When precentage of missing values are more than 50%, I deleted those features. If there is any duplicated rows, I dropped the duplicated.
+
+Then, I ask few questions to the dataframe. 
+
+#### 1. Does the type of stores affect the store sales?
 
 Test with ANOVA (Analysis of Variance) with p = 0.05 
 
 - Null Hypothesis: $H_0$ = there is no effect between type of stores and the store sales  
 - Althenative Hypotheis: $H_1$ = there is effect  
 
+Anova result: p = 0 which is less than 0.05. Reject $H_0$. 
 
+![image](https://github.com/kh4vv/Data-Science-Project/assets/47800500/df37e18a-c69d-404b-9586-ab6d0fdc0447)
+
+#### 2. Which family is having the highest sales?
